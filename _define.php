@@ -13,8 +13,9 @@ $this->registerModule(
 	/* Name */				  "Sterenn",
 	/* Description*/		"Le thème d'une étoile bretonne",
 	/* Author */			  "Ludovic Toinel, Pierre Van Glabeke",
-	/* Version */			  '1.2',
+	/* Version */			  '1.3.1',
 	array(
-		'type'		=>		'theme'
+		'type'	 =>	'theme',
+		'tplset' => 'mustek'
 	)
 );

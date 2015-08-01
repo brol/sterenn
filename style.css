@@ -114,7 +114,7 @@ pre {
 	width: 550px;
 	float: left;
 }
-
+#breadcrumb {padding:0 0 0 25px;}
 #content {
 	padding: 0 25px;
 }
@@ -238,7 +238,7 @@ pre {
 	display: inline;
 	border-bottom: none;
 }
-
+.topnav-home a {padding-right:10px;}
 #sidebar .syndicate ul {
 	border-top: none;
 }
@@ -460,7 +460,7 @@ a.feed {
 	border: 1px solid #E0E0E0;
 	background-color: #F0F0F5;
 }
-.post-excerpt img, .post-content img {
+.post-excerpt img, .post-content img, .post img {
   max-width:100%;
 }
 .post-content ul, .post-excerpt ul {
@@ -716,6 +716,6 @@ a.feed {
   text-decoration: underline;
 }
 
-.dc-category #content-info p img {
+.dc-category #content-info img {
   max-width:100%;
 }
